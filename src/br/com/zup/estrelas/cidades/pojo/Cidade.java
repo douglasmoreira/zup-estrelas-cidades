@@ -11,7 +11,7 @@ public class Cidade {
 	private boolean capital;
 	private String estado;
 	private float rendaPerCapita;
-	private Date dataDeFuncacao;
+	private String dataDeFuncacao;
 	
 	public Cidade() {
 	}
@@ -40,7 +40,7 @@ public class Cidade {
 		this.numeroDeHabitantes = numeroDeHabitantes;
 	}
 	
-	public boolean isCapital() {
+	public boolean getCapital() {
 		return capital;
 	}
 	
@@ -64,11 +64,11 @@ public class Cidade {
 		this.rendaPerCapita = rendaPerCapita;
 	}
 	
-	public Date getDataDeFuncacao() {
+	public String getDataDeFuncacao() {
 		return dataDeFuncacao;
 	}
 	
-	public void setDataDeFuncacao(Date dataDeFuncacao) {
+	public void setDataDeFuncacao(String dataDeFuncacao) {
 		this.dataDeFuncacao = dataDeFuncacao;
 	}
 	
