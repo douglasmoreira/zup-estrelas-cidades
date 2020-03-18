@@ -76,7 +76,6 @@ public class CidadeDAO {
 		} catch (SQLException e) {
 			System.err.printf(e.getMessage());
 		}
-		
 		return cidades;
 	}
 	
